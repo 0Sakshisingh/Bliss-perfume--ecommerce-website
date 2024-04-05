@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(14, 13, 13);
+}
+.brlogo{
+    color: white;
+    padding: 8px;
+    margin-left: 30px;
+    padding-top: 27px;
+}
+.navcontent{
+    display: flex;
+    padding: 22px;
+    margin-left: 312px;
+}
+.n{
+    color: white;
+    padding: 10px;
+    display: flex;
+}
+.login{
+    color: white;
+    margin-left: 188px;
+    padding: 5px;
+    padding-top: 27px;
+
+}
+.herosection{
+display: flex;
+}
+.heading{
+    position: relative;
+    font-size: 153px;
+    margin-left: 92px;
+
+}
+.headingdown{
+    position: relative;
+    font-size: 48px;
+    margin-left: 92px;
+
+}
+.para{
+    left: 50px;
+    top: 339px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 227px;
+    font-size: 30px;
+    font-family: "Annie Use Your Telescope", cursive;
+    height: 100px;
+    width: 392px;
+}
+.image{
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.vector1{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+.circle1{
+    position: absolute;
+    padding-top: 219px;
+    padding-left: 277px;
+
+}
+.para.p{
+    font-family: "Annie Use Your Telescope", cursive;
+    position: relative;
+    display: contents;
+}
+.blacksection{
+    height: 449px;
+    position: relative;
+    background-color: black;
+}
+.b1{
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: white;
+    /* padding-left: 221px; */
+    padding-top: 23px;
+}
+.b2{
+    font-style: italic;
+
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+     background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;  
+}
+.b3{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    /* padding-left: 221px; */
+}
+.btn{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.taketest-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #FA6DC2, #DD9AFD);
+    color: whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .taketest-btn:hover {
+    background: linear-gradient(to right, #ff5f5f, #fd7b7b);
+  }
+  .gif-container {
+    bottom: 49px;
+    left: 1003px;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .headinglaunch{
+           position: relative;
+           font-size: 40px;
+           color: black;
+           display: flex;
+           justify-content: center;
+  }
+  .upper{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container{
+    position: relative;
+    width: 240px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .container.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .des{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .viewbtn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .headinggift{
+    position: relative;
+    font-size: 36px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.lower{
+  position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerdwn{
+  position: relative;
+    width: 247px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .containerdwn.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.bg{
+  position: absolute;
+}
+.blue{
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 224px;
+  display: flex;
+  background-image: url("mulyadi-Jc-aAOo9-QY-unsplash.jpg");
+}
+.scent{
+  position: relative;
+
+  left: 45px;
+    bottom: 130px;
+      position: relative;
+
+}
+.quote{
+  position: relative;
+
+  font-size: 25px;
+    top: 94px;
+    /* bottom: 20px; */
+    right: 59px;
+  color: white;
+position: relative;
+}
+.box{
+  position: relative;
+  display: flex;
+  padding-top: 130px;
+}
+
+.circle2{
+  position: absolute;
+  height: 471px;
+  width: 465px;
+}
+.box1{
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+   background: linear-gradient(to right, #f32170, 
+  #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text;  
+}
+.box2{
+  z-index: 1;
+
+  position: relative;
+  padding-left: 302px;
+}
+.box3{
+  position: relative;
+  left: 1070px;
+    bottom: 466px;
+  height: 247px; 
+  width: 245px;
+}
+.box4{
+  top: 2689px;
+  position: absolute;
+  width: 504px;
+  height: 497px;
+}
+.bluebg{
+  bottom: 250px;
+    position: relative;
+    background-image: linear-gradient(to right, #330C87, #27242E);
+    width: 1311px;
+    height: 156px;
+}
+.animation{
+  padding-top: 56px;
+  color: white;
+  font-size: large;
+  justify-content: center;
+  display: flex;
+}
+ .animation.h1 { 
+  display: flex; 
+  justify-content: center; 
+  color: rgb(209, 253, 13); 
+} 
+
+.anim span::before { 
+  content: "Sun Song"; 
+  animation: animate infinite 3s; 
+  padding-left: 10px; 
+} 
+
+@keyframes animate { 
+
+  0% { 
+       color: #eedd44;
+      content: "Sun Song";  
+  } 
+
+  50% { 
+    color: chartreuse;
+      content: " Cactus Garden"; 
+  } 
+
+  75% { 
+    color: #330C87;
+      content: "Afternoon Swin"; 
+  } 
+} 
+.cardcollection{
+  /*left: 300px;
+  /* right: 50px; */
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 133px;
+}
+.cr1{
+  padding: 16px;
+}
+.containera{
+  border-radius: 10px;
+}
+.auth{
+  display: flex;
+  justify-content: center;
+}
+.top{
+  color: #27242E;
+  font-size: 19px;
+  font-weight: bold;
+}
+.bottom{
+  font-size: 19px;
+}
+.a1{
+  height: 91px;
+  width: 291px;
+  padding: 10px;
+}
+.a2{
+  height: 91px;
+  width: 203px;
+  padding: 10px;
+}
+.last{
+  background-color: #FAB8D8;
+  display: flex;
+  height: 438px;
+  width: 100%;
+}
+.l1{
+  padding-top: 102px;
+  padding-left: 96px;
+}
+.l2{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.l3{
+  padding: 5px;
+  font-size: 25px;
+}
+.subscribe{
+  display: flex;
+}
+.whitebox{
+background-color: white;
+height: 28px;
+width: 220px;
+}
+.subscribebtn{
+  height: 30px;
+  width: 30px;
+  background-color: #27242E;
+  color: white;
+
+}
+.iconimg{
+  display: flex;
+}
+.icon{
+  padding-left: 100px;
+    padding-top: 178px;
+}
+.subsbtn{
+  padding-left: 10px;
+}
+.i1{
+  padding: 5px;
+}
+.checked {
+  color: orange;
+}
+
+
